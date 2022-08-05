@@ -1,7 +1,13 @@
 .header {
+  text-align: center;
   height: 100vh;
+  color: white;
   background-image: url("/images/background.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.header h1 {
+  padding-top: 12rem;
 }
