@@ -97,6 +97,11 @@ $gradient-radial: radial-gradient(
   padding-top: 12rem;
 }
 
+.title {
+  text-align: center;
+  padding-top: 5rem;
+}
+
 .cards {
   background-color: var(--deep-champagne);
 }
