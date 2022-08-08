@@ -1,13 +1,110 @@
+/* CSS HEX */
+:root {
+  --deep-champagne: #f6d8ae;
+  --charcoal: #2e4057;
+  --indigo-dye: #083d77;
+  --cerise: #da4167;
+  --orange-yellow-crayola: #f4d35e;
+  --gradient: linear-gradient(to right, #f6d8ae, #f4d35e);
+}
+/* SCSS Gradient */
+/*$gradient-top: linear-gradient(
+  0deg,
+  #f6d8aeff,
+  #2e4057ff,
+  #083d77ff,
+  #da4167ff,
+  #f4d35eff
+);
+$gradient-right: linear-gradient(
+  90deg,
+  #f6d8aeff,
+  #2e4057ff,
+  #083d77ff,
+  #da4167ff,
+  #f4d35eff
+);
+$gradient-bottom: linear-gradient(
+  180deg,
+  #f6d8aeff,
+  #2e4057ff,
+  #083d77ff,
+  #da4167ff,
+  #f4d35eff
+);
+$gradient-left: linear-gradient(
+  270deg,
+  #f6d8aeff,
+  #2e4057ff,
+  #083d77ff,
+  #da4167ff,
+  #f4d35eff
+);
+$gradient-top-right: linear-gradient(
+  45deg,
+  #f6d8aeff,
+  #2e4057ff,
+  #083d77ff,
+  #da4167ff,
+  #f4d35eff
+);
+$gradient-bottom-right: linear-gradient(
+  135deg,
+  #f6d8aeff,
+  #2e4057ff,
+  #083d77ff,
+  #da4167ff,
+  #f4d35eff
+);
+$gradient-top-left: linear-gradient(
+  225deg,
+  #f6d8aeff,
+  #2e4057ff,
+  #083d77ff,
+  #da4167ff,
+  #f4d35eff
+);
+$gradient-bottom-left: linear-gradient(
+  315deg,
+  #f6d8aeff,
+  #2e4057ff,
+  #083d77ff,
+  #da4167ff,
+  #f4d35eff
+);
+$gradient-radial: radial-gradient(
+  #f6d8aeff,
+  #2e4057ff,
+  #083d77ff,
+  #da4167ff,
+  #f4d35eff
+);
+*/
+
+.navbar {
+  background-color: var(--indigo-dye);
+}
 .header {
   text-align: center;
   height: 100vh;
   color: white;
-  background-image: url("/images/background.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../images/background.jpg") center center no-repeat;
   background-size: cover;
 }
 
 .header h1 {
   padding-top: 12rem;
+}
+
+.cards {
+  background-color: var(--deep-champagne);
+}
+
+.highlights {
+  height: 50vh;
+}
+
+.row {
+  max-width: 1200px;
 }
