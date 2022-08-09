@@ -112,6 +112,7 @@ body {
 
 .highlights {
   height: 50vh;
+  /* text-align: center; */
 }
 
 .row {
@@ -121,4 +122,13 @@ body {
 .card-body .btn {
   background-color: var(--indigo-dye);
   color: var(--deep-champagne);
+}
+
+.fas-icons {
+  font-size: 5rem;
+}
+
+.icon-center {
+  text-align: center;
+  padding: 2rem;
 }
