@@ -103,7 +103,7 @@ $gradient-radial: radial-gradient(
 }
 
 .cards {
-  background-color: var(--deep-champagne);
+  /* background-color: var(--deep-champagne); */
 }
 
 .highlights {
@@ -116,4 +116,5 @@ $gradient-radial: radial-gradient(
 
 .card-body .btn {
   background-color: var(--indigo-dye);
+  color: var(--deep-champagne);
 }
